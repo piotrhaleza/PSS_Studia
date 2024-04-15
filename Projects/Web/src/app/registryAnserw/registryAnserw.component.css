@@ -1,0 +1,197 @@
+.label_title {
+  font-size: 55px;
+  margin: -10% 0 10% 0;
+  color: rgb(136,150,176);
+}
+
+.label_warning {
+  font-size: 15px;
+  color: red;
+}
+
+.logo {
+  position: absolute;
+  top: 3%; /* Ustawienie na górze */
+  left: 49%; /* Przesunięcie do środka */
+  transform: translateX(-50%); /* Wyśrodkowanie */
+  padding: 20px;
+  width: 20%; /* Ustawienie szerokości na 100 pikseli */
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  padding: 16px 32px;
+  color: white;
+  transition: background-color 0.3s;
+  left: 10%;
+  top: 5%;
+  width: 3%
+}
+
+  a:hover {
+    background-color: rgb(157,160,251);
+    color: white;
+  }
+
+.previous {
+  left: 10%;
+  top: 5%;
+  background-color: rgb(127,110,231);
+  color: white;
+}
+
+.next {
+  left: 10%;
+  top: 5%;
+  background-color: rgb(150,20,12);
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+.button1 {
+  background-color: rgb(127,110,231);
+  float: left;
+  font-size: 17px;
+  padding: 10px 60px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin: 5%;
+  width: 40%;
+  height: 6%
+}
+
+  .button1:hover {
+    background-color: rgb(167,130,251);
+    color: white;
+  }
+
+.right_image {
+  display: flex;
+  width: 43%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 57%
+}
+
+.left_image {
+  display: flex;
+  width: 43%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+
+.container_registry {
+  background-color: rgb(245,245,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  height: 60%;
+  border: solid 5px rgb(196,210,236);
+  border-radius: 30px;
+  position: absolute;
+  animation: slideUp 2s forwards; /* Wywołanie animacji */
+  top: 20%;
+  left: 36.0%;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(-150%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+.float-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: -10%;
+  margin: 5%
+}
+
+.form-container label {
+  margin-bottom: 00px;
+  margin-left: 0%;
+  font-size: 40px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="submit"],
+.form-container input[type="checkbox"] {
+  margin-bottom: 0px;
+  margin-left: 0%;
+}
+
+
+
+
+.float-label {
+  position: absolute;
+  left: 0%;
+  top: -30%;
+  pointer-events: none;
+  padding: 1%;
+  background-color: transparent;
+  color: rgb(150,150,150);
+  transition: all 200ms ease-in-out;
+  font-size: 30px;
+}
+
+/*In input again I have some basic styling and again*/
+
+
+
+input {
+  background-color: transparent;
+  color: black;
+  width: 160%;
+  padding: 12px 20px;
+  border: 0px;
+  border-bottom: 2px inset black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(107,90,211);
+  }
+
+
+    input:focus ~ .float-label,
+    input:not(:focus):valid ~ .float-label {
+      top: -80%;
+      left: -0.0em;
+      color: red;
+      background-color: transparent;
+      padding: 0;
+      border-radius: 0.25em;
+      color: rgb(0,0,0);
+    }
+
+    input:focus ~ .float-label {
+      color: rgb(107,90,211);
+    }

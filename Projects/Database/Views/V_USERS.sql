@@ -1,0 +1,2 @@
+﻿CREATE VIEW [dbo].[V_USERS]
+	AS SELECT * FROM dbo.USERS

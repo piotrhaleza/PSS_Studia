@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "..\Projects\Database\Database.sqlproj", "{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Projects\Models\Models.csproj", "{7CD52C7A-C0E1-4FEE-8266-A725F116722A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "..\Projects\WebAPI\WebAPI.csproj", "{346F4474-9617-416A-88BE-02A1443DC51E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Projects\Data\Data.csproj", "{C1227E45-FB7E-4E43-80F4-098C7AEF5321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AA01D2-80CC-4CE1-9CA6-3E7747ACE303}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7CD52C7A-C0E1-4FEE-8266-A725F116722A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD52C7A-C0E1-4FEE-8266-A725F116722A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD52C7A-C0E1-4FEE-8266-A725F116722A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD52C7A-C0E1-4FEE-8266-A725F116722A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346F4474-9617-416A-88BE-02A1443DC51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346F4474-9617-416A-88BE-02A1443DC51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346F4474-9617-416A-88BE-02A1443DC51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346F4474-9617-416A-88BE-02A1443DC51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1227E45-FB7E-4E43-80F4-098C7AEF5321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1227E45-FB7E-4E43-80F4-098C7AEF5321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1227E45-FB7E-4E43-80F4-098C7AEF5321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1227E45-FB7E-4E43-80F4-098C7AEF5321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD866706-84CF-48E8-831A-F9B613154B4C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/phaleza
+		SccProjectUniqueName0 = ..\\Projects\\Database\\Database.sqlproj
+		SccProjectName0 = ../Projects/Database
+		SccAuxPath0 = https://dev.azure.com/phaleza
+		SccLocalPath0 = ..\\Projects\\Database
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\Projects\\Models\\Models.csproj
+		SccProjectName1 = ../Projects/Models
+		SccAuxPath1 = https://dev.azure.com/phaleza
+		SccLocalPath1 = ..\\Projects\\Models
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\Projects\\WebAPI\\WebAPI.csproj
+		SccProjectName2 = ../Projects/WebAPI
+		SccAuxPath2 = https://dev.azure.com/phaleza
+		SccLocalPath2 = ..\\Projects\\WebAPI
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

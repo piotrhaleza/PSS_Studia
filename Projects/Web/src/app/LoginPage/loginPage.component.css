@@ -1,0 +1,186 @@
+
+.container_L {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.child {
+  float: left;
+  margin-left: 200px
+}
+
+.horizontal-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 120%;
+  margin: 5% 20% 0%  -12%;
+}
+
+.button1 {
+  background-color: rgb(127,110,231);
+  
+  font-size: 17px;
+  padding: 10px 60px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width:50%;
+  text-align:center;
+}
+
+.button2 {
+  background-color: rgb(70,190,171);
+  float: left;
+  font-size: 17px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width:50%;
+  margin: 0px 5% 0px 0px;
+}
+
+.button1:hover {
+  background-color: rgb(167,130,251);
+  color: white;
+}
+
+.button2:hover {
+  background-color: rgb(90,210,191);
+  color: white;
+}
+
+.img {
+  transition-property: background-image;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 25%;
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10%; /* Ustawienie na górze */
+  left: 50%; /* Przesunięcie do środka */
+  transform: translateX(-50%); /* Wyśrodkowanie */
+  padding: 20px;
+  width: 60%; /* Ustawienie szerokości na 100 pikseli */
+  height: auto;
+}
+
+.container_Bottom {
+  background-color: rgb(40, 40, 40);
+  width: 100%;
+  height: 5vh;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0,0,0,10px;
+  height: 100%;
+  text-align: center;
+}
+
+
+.float-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 00px;
+  margin-left: -10%;
+  font-size: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="submit"],
+.form-container input[type="checkbox"] {
+  margin-bottom: 52px;
+  margin-left: -10%;
+}
+
+
+
+
+.float-label {
+  position: absolute;
+  left: 2%;
+  top: 1%;
+  pointer-events: none;
+  padding: 0.5em;
+  color: white;
+  background-color: transparent;
+  color: rgb(150,150,150);
+  transition: all 200ms ease-in-out;
+  font-size: 40px;
+}
+
+/*In input again I have some basic styling and again*/
+
+
+
+input {
+  background-color: transparent;
+  color: black;
+  width: 160%;
+  padding: 12px 20px;
+  border: 0px;
+  border-bottom: 2px inset black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(107,90,211);
+  }
+
+
+    input:focus ~ .float-label,
+    input:not(:focus):valid ~ .float-label {
+      top: -1.2em;
+      left: -0.0em;
+      color: white;
+      background-color: transparent;
+      padding: 0;
+      border-radius: 0.25em;
+      color: rgb(150,150,150);
+    }
+
+    input:focus ~ .float-label {
+      color: rgb(107,90,211);
+    }

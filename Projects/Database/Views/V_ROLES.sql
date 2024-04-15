@@ -1,0 +1,2 @@
+﻿CREATE VIEW [dbo].[V_ROLES]
+	AS SELECT * FROM dbo.ROLES

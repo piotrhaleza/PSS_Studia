@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Web", "..\Projects\Web\Web.esproj", "{1D416EBB-3B02-4611-A199-4A768B9E976F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D416EBB-3B02-4611-A199-4A768B9E976F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D416EBB-3B02-4611-A199-4A768B9E976F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D416EBB-3B02-4611-A199-4A768B9E976F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D416EBB-3B02-4611-A199-4A768B9E976F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D416EBB-3B02-4611-A199-4A768B9E976F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D416EBB-3B02-4611-A199-4A768B9E976F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC8E75F5-5E25-4D98-9580-B6E16316295B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/phaleza
+		SccProjectUniqueName0 = ..\\Projects\\Web\\Web.esproj
+		SccProjectName0 = ../Projects/Web
+		SccLocalPath0 = ..\\Projects\\Web
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

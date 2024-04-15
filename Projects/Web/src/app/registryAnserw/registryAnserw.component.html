@@ -1,0 +1,29 @@
+
+<a href="#" class="previous round">&#8249;</a>
+
+<img class="left_image" src="assets/images/registry1.png" />
+<img class="right_image" src="assets/images/registry2.png" />
+
+<img class="logo" src="../assets/images/logo.png" />
+<div class="container_registry">
+  <label class="label_title"> Rejestracja konta</label>
+  <div class="float-group">
+    <input for="email" autocomplete="off" required type="text" [(ngModel)]="email"/>
+    <label siz class="float-label">Email</label>
+  </div>
+  <div class="float-group">
+    <input for="login" autocomplete="off" required type="text" [(ngModel)]="login"/>
+    <label siz class="float-label">Login</label>
+  </div>
+  <div class="float-group">
+    <input type="password" autocomplete="off" required [(ngModel)]="password"/>
+    <label siz class="float-label">Hasło</label>
+  </div>
+  <div class="float-group">
+    <input type="password" autocomplete="off" required [(ngModel)]="passwordConfirm"/>
+    <label siz class="float-label">Powtórz hasło</label>
+  </div>
+  <button class="button1" type="submit" (click)="registry()">Zarejestruj się</button>
+  
+  <label class="label_warning">{{comunicate}}</label>
+</div>

@@ -1,0 +1,25 @@
+
+<div class="container_L">
+  <img class="logo" src="../assets/images/logo.png" />
+
+  <div class="form-container">
+
+    <div class="float-group">
+      <input for="login" autocomplete="off" required type="text" />
+      <label siz class="float-label">Login</label>
+    </div>
+    <div class="float-group">
+      <input type="password" autocomplete="off" required />
+      <label siz class="float-label">Hasło</label>
+    </div>
+
+    <div class="horizontal-div">
+      <button class="button2" (click)="registry()" type="submit" >Zarejestruj Konto</button>
+      <button class="button1" type="submit" >Zaloguj</button>
+    </div>
+  </div>
+  <a class='nav-link' routerLink='/registry'>hej</a>
+</div>
+
+<div class="img" [ngStyle]="styles[currentImageIndex]"></div>
+
